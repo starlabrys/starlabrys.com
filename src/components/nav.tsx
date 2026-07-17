@@ -7,15 +7,15 @@ const NAV_ITEMS: Record<Locale, { href: string; label: string }[]> = {
     { href: "", label: "首页" },
     { href: "/about", label: "关于" },
     { href: "/team", label: "团队" },
-    { href: "/services", label: "服务" },
-    { href: "/contact", label: "联系" },
+    { href: "#services", label: "服务" },
+    { href: "#contact", label: "联系" },
   ],
   en: [
     { href: "", label: "Home" },
     { href: "/about", label: "About" },
     { href: "/team", label: "Team" },
-    { href: "/services", label: "Services" },
-    { href: "/contact", label: "Contact" },
+    { href: "#services", label: "Services" },
+    { href: "#contact", label: "Contact" },
   ],
 };
 

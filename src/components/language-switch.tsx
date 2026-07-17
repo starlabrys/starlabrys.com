@@ -4,19 +4,34 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { locales, type Locale } from "@/lib/i18n";
 
+const LABEL: Record<Locale, string> = { zh: "中文", en: "EN" };
+
 export default function LanguageSwitch({ locale }: { locale: Locale }) {
   const pathname = usePathname();
-  const otherLocale = locales.find((l) => l !== locale)!;
   const segments = pathname.split("/").filter(Boolean);
-  segments[0] = otherLocale;
-  const target = "/" + segments.join("/");
 
   return (
-    <Link
-      href={target}
-      className="text-sm text-text-secondary hover:text-foreground"
+    <div
+      role="group"
+      aria-label="Language"
+      className="inline-flex overflow-hidden rounded-sm border border-white/35"
     >
-      {otherLocale.toUpperCase()}
-    </Link>
+      {locales.map((l) => {
+        const target = "/" + [l, ...segments.slice(1)].join("/");
+        const active = l === locale;
+        return (
+          <Link
+            key={l}
+            href={target}
+            aria-pressed={active}
+            className={`px-[0.65rem] py-[0.4rem] text-[0.8rem] font-semibold tracking-wide transition-colors ${
+              active ? "bg-white/16 text-white" : "text-white/70 hover:text-white"
+            }`}
+          >
+            {LABEL[l]}
+          </Link>
+        );
+      })}
+    </div>
   );
 }

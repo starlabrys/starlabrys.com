@@ -6,6 +6,19 @@
   --text-secondary: #9a9aa8;
   --accent-start: #4b5fd9;
   --accent-end: #e8eaf0;
+
+  /* Homepage theme (prototype-derived): cool slate atmosphere + teal accent */
+  --home-ink: #0e1618;
+  --home-ink-soft: #243033;
+  --home-slate: #3d4f54;
+  --home-mist: #e8eef0;
+  --home-paper: #f4f7f8;
+  --home-white: #ffffff;
+  --home-teal: #0f6e6a;
+  --home-teal-deep: #0a4f4c;
+  --home-teal-soft: #c5e4e1;
+  --home-line: rgba(14, 22, 24, 0.12);
+  --home-line-light: rgba(255, 255, 255, 0.18);
 }
 
 @theme inline {
@@ -16,6 +29,57 @@
   --color-accent-end: var(--accent-end);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-home-ink: var(--home-ink);
+  --color-home-ink-soft: var(--home-ink-soft);
+  --color-home-slate: var(--home-slate);
+  --color-home-mist: var(--home-mist);
+  --color-home-paper: var(--home-paper);
+  --color-home-white: var(--home-white);
+  --color-home-teal: var(--home-teal);
+  --color-home-teal-deep: var(--home-teal-deep);
+  --color-home-teal-soft: var(--home-teal-soft);
+  --color-home-line: var(--home-line);
+  --color-home-line-light: var(--home-line-light);
+
+  --font-display: var(--font-syne), var(--font-noto-sans-sc), sans-serif;
+  --font-home-body: var(--font-ibm-plex-sans), var(--font-noto-sans-sc), sans-serif;
+
+  --animate-slide-down: slide-down 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.15s forwards;
+  --animate-grid-drift: grid-drift 28s linear infinite;
+  --animate-beam-sweep: beam-sweep 10s cubic-bezier(0.22, 1, 0.36, 1) infinite alternate;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes grid-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 72px 72px;
+  }
+}
+
+@keyframes beam-sweep {
+  from {
+    transform: rotate(-8deg) translateX(-4%);
+  }
+  to {
+    transform: rotate(-8deg) translateX(4%);
+  }
+}
+
+html[lang="zh"] .home-root {
+  --font-display: var(--font-noto-sans-sc), var(--font-syne), sans-serif;
+  --font-home-body: var(--font-noto-sans-sc), var(--font-ibm-plex-sans), sans-serif;
 }
 
 body {

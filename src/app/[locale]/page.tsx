@@ -1,11 +1,25 @@
-import Link from "next/link";
-import { getPageContent } from "@/lib/content";
+import type { Metadata } from "next";
+import { getHomeContent } from "@/lib/home-content";
 import type { Locale } from "@/lib/i18n";
+import SiteHeader from "@/components/home/site-header";
+import Hero from "@/components/home/hero";
+import Services from "@/components/home/services";
+import Outcomes from "@/components/home/outcomes";
+import Scale from "@/components/home/scale";
+import Work from "@/components/home/work";
+import Insights from "@/components/home/insights";
+import ContactCta from "@/components/home/contact-cta";
+import SiteFooter from "@/components/home/site-footer";
 
-const CTA: Record<Locale, { primary: string; secondary: string }> = {
-  zh: { primary: "了解服务", secondary: "联系我们" },
-  en: { primary: "Our services", secondary: "Contact us" },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const locale = (await params).locale as Locale;
+  const { meta } = getHomeContent(locale);
+  return { title: meta.title, description: meta.description };
+}
 
 export default async function HomePage({
   params,
@@ -13,29 +27,27 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const locale = (await params).locale as Locale;
-  const content = await getPageContent(locale, "home");
-  const cta = CTA[locale];
+  const content = getHomeContent(locale);
 
   return (
-    <div>
-      <div
-        className="markdown"
-        dangerouslySetInnerHTML={{ __html: content.html }}
-      />
-      <div className="mt-8 flex gap-4">
-        <Link
-          href={`/${locale}/services`}
-          className="rounded-full border border-accent-start px-6 py-2 text-sm hover:bg-accent-start/10"
-        >
-          {cta.primary}
-        </Link>
-        <Link
-          href={`/${locale}/contact`}
-          className="rounded-full bg-gradient-to-r from-accent-start to-accent-end px-6 py-2 text-sm font-medium text-black"
-        >
-          {cta.secondary}
-        </Link>
-      </div>
+    <div className="font-home-body bg-home-paper text-home-ink">
+      <a
+        href="#main"
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-sm focus:bg-home-white focus:px-4 focus:py-3"
+      >
+        Skip to content
+      </a>
+      <SiteHeader locale={locale} nav={content.nav} />
+      <main id="main">
+        <Hero hero={content.hero} />
+        <Services services={content.services} />
+        <Outcomes outcomes={content.outcomes} />
+        <Scale scale={content.scale} />
+        <Work work={content.work} />
+        <Insights insights={content.insights} />
+        <ContactCta contact={content.contact} />
+      </main>
+      <SiteFooter locale={locale} footer={content.footer} />
     </div>
   );
 }
