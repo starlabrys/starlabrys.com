@@ -1,10 +1,108 @@
 ---
-title: "Starlabrys — Software Development & Technical Consulting"
-description: "Xingyue (Dalian) Technology Co., Ltd.: software development and technical consulting"
+meta:
+  title: "Starlabrys — A software company centered on project delivery"
+  description: "Starlabrys focuses on software project delivery: from requirements to launch, providing custom development and engineering that lands."
+nav:
+  services: "Services"
+  capabilities: "Capabilities"
+  work: "Work"
+  insights: "Insights"
+  contact: "Contact"
+hero:
+  brand: "Starlabrys"
+  title: "Through projects, we turn ideas\ninto usable software."
+  lede: "Starlabrys is a project-led software company.\nWe take on custom development and system delivery, walking clients from requirements to working results."
+  ctaPrimary: "Contact us"
+  ctaSecondary: "See our work"
+services:
+  title: "How we run projects"
+  intro: "We don't sell a standard product. We initiate, design, build, and deliver against business goals — so every phase of investment maps to an outcome you can accept."
+  flagship:
+    eyebrow: "Delivery model"
+    title: "End-to-end software project delivery"
+    body: "From discovery and solution design through architecture and development, to integration, launch, and handover — we move on a project cadence so stakeholders always know progress and boundaries."
+    link: "See projects we've done"
+  capabilities:
+    - title: "Discovery & scoping"
+      body: "Map business scenarios and constraints, then turn fuzzy goals into executable scope, milestones, and acceptance criteria."
+      link: "Talk about your project"
+    - title: "Custom development"
+      body: "Build applications, APIs, and automation to fit the project — technology serves the goal, not the other way around."
+      link: "Talk about your project"
+    - title: "Integration & handover"
+      body: "Connect to existing systems and workflows, then finish with integration, training, and handover so the result enters day-to-day use."
+      link: "Talk about your project"
+outcomes:
+  title: "What clients get from working with us"
+  intro: "We focus on results that are deliverable, acceptable, and sustainable."
+  items:
+    - title: "Clear scope"
+      body: "Goals and boundaries are agreed at kickoff, reducing mid-project churn so teams spend energy on what actually matters."
+    - title: "Visible progress"
+      body: "We advance through demoable increments — progress stays transparent and risks surface early, not near launch."
+    - title: "A handoff that sticks"
+      body: "Delivery is more than code: documentation, transfer, and the training your team needs to maintain and evolve it."
+scale:
+  title: "Value created one project at a time"
+  intro: "Different industries, different stacks — the constant is finishing projects well."
+  stats:
+    - dt: "Project-led"
+      dd: "Engagements organized around delivery outcomes"
+    - dt: "Enterprise"
+      dd: "Including international client experience"
+    - dt: "Multi-domain"
+      dd: "Automation, AI, and more — applied as needed"
+work:
+  title: "Selected projects"
+  intro: "Here are some of the projects we've delivered — for example in network automation and AI."
+  stories:
+    - title: "Automated firewall policy rollout"
+      body: "Built workflows to prepare and push firewall rules automatically — reducing manual change risk and improving control."
+    - title: "AI-powered log analysis"
+      body: "Built log analysis capabilities that help teams spot anomalies and critical signals faster in high-volume data."
+    - title: "Embedding capabilities into the client's existing systems"
+      body: "Whatever the technical domain, we align with existing processes, tools, and team practices so the project actually lands."
+insights:
+  title: "Notes from project practice"
+  intro: "Frontline experience on scoping, delivery, and engineering that lands."
+  items:
+    - tag: "Scoping"
+      title: "Turning fuzzy needs into acceptably clear project scope"
+    - tag: "Delivery"
+      title: "Using demoable increments to reduce late-project risk"
+    - tag: "Engineering"
+      title: "How custom software projects hand over cleanly"
+contact:
+  title: "Let's talk about your next project"
+  body: "Whether it's a new system, process automation, or bringing AI into production — it can start with a short conversation."
+  ctaEmail: "Send email"
+  ctaExplore: "See how we work"
+  email: "contact@starlabrys.com"
+footer:
+  blurb: "A software company centered on project delivery."
+  columns:
+    - heading: "Services"
+      links:
+        - label: "Discovery & scoping"
+          href: "#services"
+        - label: "Custom development"
+          href: "#capabilities"
+        - label: "Integration & handover"
+          href: "#capabilities"
+    - heading: "Company"
+      links:
+        - label: "Work"
+          href: "#work"
+        - label: "Insights"
+          href: "#insights"
+        - label: "Contact"
+          href: "#contact"
+    - heading: "Legal"
+      links:
+        - label: "Privacy"
+          href: "#"
+        - label: "Terms"
+          href: "#"
+        - label: "Security"
+          href: "#"
 ---
-
-# Starlabrys
-
-**Star** guides the way, **Labrys** cuts through complexity — a studio focused on software development and technical consulting.
-
-We focus on backend system design, automation platforms, and engineering efficiency — helping teams solve hard problems with reliable technology.

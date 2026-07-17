@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  dev:
+    desc: 本地启动开发服务器 (next dev)
+    cmds:
+      - npm run dev

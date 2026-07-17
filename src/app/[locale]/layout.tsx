@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Syne, IBM_Plex_Sans, Noto_Sans_SC } from "next/font/google";
 import "../globals.css";
-import Nav from "@/components/nav";
-import Footer from "@/components/footer";
 import { locales, type Locale } from "@/lib/i18n";
 
 const geistSans = Geist({
@@ -12,6 +10,24 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const syne = Syne({
+  variable: "--font-syne",
+  weight: ["600", "700", "800"],
+  subsets: ["latin"],
+});
+
+const ibmPlexSans = IBM_Plex_Sans({
+  variable: "--font-ibm-plex-sans",
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+});
+
+const notoSansSC = Noto_Sans_SC({
+  variable: "--font-noto-sans-sc",
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
@@ -52,15 +68,9 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${syne.variable} ${ibmPlexSans.variable} ${notoSansSC.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-background text-foreground">
-        <Nav locale={locale} />
-        <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-12">
-          {children}
-        </main>
-        <Footer locale={locale} />
-      </body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }
