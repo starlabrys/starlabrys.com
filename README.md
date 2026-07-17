@@ -1,6 +1,6 @@
 # starlabrys.com
 
-Static marketing homepage for Starlabrys — a startup software company.
+Static marketing homepage for Starlabrys — a project-led software company (中文 / EN).
 
 ## Preview
 
