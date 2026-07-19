@@ -30,3 +30,7 @@ npx serve out
 ## 部署
 
 Cloudflare Pages，构建命令 `npm run build`，输出目录 `out`，自定义域名 `starlabrys.com`（域名与 DNS 均在同一 Cloudflare 账号）。
+
+## 访问统计
+
+[Umami](https://cloud.umami.is)（无 cookie），脚本在 `src/components/analytics.tsx`，由根 layout 注入。website id 由原 pomodoro 站点改绑为本站。
