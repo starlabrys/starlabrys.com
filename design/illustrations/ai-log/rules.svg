@@ -36,7 +36,7 @@
     <circle cx="366" cy="235" r="4" fill="#e07a6d"/><text x="378" y="240" font-size="12">critical</text>
     <text x="460" y="240" font-size="12">Context is null before process()</text>
     <rect x="800" y="224" width="90" height="22" rx="11" fill="rgba(197,228,225,0.18)"/><text x="812" y="240" font-size="11" fill="#c5e4e1">AI learned</text>
-    <text x="960" y="240" font-size="12" fill="#9fb0b3">2026-01-18</text>
+    <text x="960" y="240" font-size="12" fill="#9fb0b3">2 days ago</text>
     <text x="1100" y="240" font-size="12" fill="#5fb8d6">View</text><text x="1150" y="240" font-size="12" fill="#5fd68f">Promote</text><text x="1224" y="240" font-size="12" fill="#e07a6d">Delete</text>
 
     <text x="48" y="288" fill="#5fb8d6">RULE_AUTH_TIMEOUT</text>
@@ -44,7 +44,7 @@
     <circle cx="366" cy="283" r="4" fill="#e2a53a"/><text x="378" y="288" font-size="12">high</text>
     <text x="460" y="288" font-size="12">Upstream timeout cascading to gateway</text>
     <rect x="800" y="272" width="72" height="22" rx="11" fill="rgba(255,255,255,0.08)"/><text x="812" y="288" font-size="11" fill="#c9d4d6">Manual</text>
-    <text x="960" y="288" font-size="12" fill="#9fb0b3">2025-12-11</text>
+    <text x="960" y="288" font-size="12" fill="#9fb0b3">5 weeks ago</text>
     <text x="1100" y="288" font-size="12" fill="#5fb8d6">View</text>
 
     <text x="48" y="336" fill="#5fb8d6">RULE_CONN_REFUSED</text>
@@ -52,7 +52,7 @@
     <circle cx="366" cy="331" r="4" fill="#e07a6d"/><text x="378" y="336" font-size="12">critical</text>
     <text x="460" y="336" font-size="12">Database connection refused during peak</text>
     <rect x="800" y="320" width="72" height="22" rx="11" fill="rgba(255,255,255,0.08)"/><text x="812" y="336" font-size="11" fill="#c9d4d6">Manual</text>
-    <text x="960" y="336" font-size="12" fill="#9fb0b3">2025-11-28</text>
+    <text x="960" y="336" font-size="12" fill="#9fb0b3">7 weeks ago</text>
     <text x="1100" y="336" font-size="12" fill="#5fb8d6">View</text>
 
     <text x="48" y="384" fill="#5fb8d6">RULE_WORKER_OOM</text>
@@ -60,7 +60,7 @@
     <circle cx="366" cy="379" r="4" fill="#e2a53a"/><text x="378" y="384" font-size="12">high</text>
     <text x="460" y="384" font-size="12">Worker heap OOM on batch job</text>
     <rect x="800" y="368" width="90" height="22" rx="11" fill="rgba(197,228,225,0.18)"/><text x="812" y="384" font-size="11" fill="#c5e4e1">AI learned</text>
-    <text x="960" y="384" font-size="12" fill="#9fb0b3">2026-01-17</text>
+    <text x="960" y="384" font-size="12" fill="#9fb0b3">3 days ago</text>
     <text x="1100" y="384" font-size="12" fill="#5fb8d6">View</text><text x="1150" y="384" font-size="12" fill="#5fd68f">Promote</text><text x="1224" y="384" font-size="12" fill="#e07a6d">Delete</text>
 
     <text x="48" y="432" fill="#5fb8d6">RULE_RATE_LIMIT_WARN</text>
@@ -68,7 +68,7 @@
     <circle cx="366" cy="427" r="4" fill="#3fae6a"/><text x="378" y="432" font-size="12">low</text>
     <text x="460" y="432" font-size="12">Soft rate-limit warnings on auth endpoints</text>
     <rect x="800" y="416" width="72" height="22" rx="11" fill="rgba(255,255,255,0.08)"/><text x="812" y="432" font-size="11" fill="#c9d4d6">Manual</text>
-    <text x="960" y="432" font-size="12" fill="#9fb0b3">2025-10-03</text>
+    <text x="960" y="432" font-size="12" fill="#9fb0b3">3 months ago</text>
     <text x="1100" y="432" font-size="12" fill="#5fb8d6">View</text>
   </g>
   <g stroke="rgba(255,255,255,0.08)">

@@ -16,9 +16,9 @@ export default function Hero({ hero }: { hero: HomeContent["hero"] }) {
       <div
         className={`${shell} relative z-10 grid w-full items-center gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-12`}
       >
-        <div className="max-w-[38rem]">
+        <div className="max-w-[38rem] @container">
           <Reveal>
-            <p className="font-display mb-5 text-[clamp(2.75rem,7vw,4.5rem)] leading-[0.95] font-extrabold tracking-tight">
+            <p className="font-display mb-5 text-[clamp(2.75rem,12.5cqw,4.5rem)] leading-[0.95] font-extrabold tracking-tight">
               {hero.brand}
             </p>
           </Reveal>

@@ -116,22 +116,23 @@ export default function Work({
                 aria-label={`${labels.viewDetails}: ${story.title}`}
                 className="group relative overflow-hidden rounded-sm border border-home-line bg-home-mist transition-colors hover:border-home-teal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-home-teal"
               >
-                {story.image ? (
-                  <Image
-                    src={story.image}
-                    alt={story.title}
-                    width={1920}
-                    height={840}
-                    sizes="(max-width: 768px) 100vw, min(700px, 60vw)"
-                    className="h-auto w-full"
-                    priority={index === 0}
-                  />
-                ) : (
-                  <div
-                    aria-hidden="true"
-                    className={`aspect-[16/10] w-full bg-gradient-to-br ${MEDIA_GRADIENTS[index % MEDIA_GRADIENTS.length]}`}
-                  />
-                )}
+                <div className="relative aspect-[11/5] w-full bg-home-mist">
+                  {story.image ? (
+                    <Image
+                      src={story.image}
+                      alt={story.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, min(700px, 60vw)"
+                      className="object-contain"
+                      priority={index === 0}
+                    />
+                  ) : (
+                    <div
+                      aria-hidden="true"
+                      className={`absolute inset-0 bg-gradient-to-br ${MEDIA_GRADIENTS[index % MEDIA_GRADIENTS.length]}`}
+                    />
+                  )}
+                </div>
                 <span className="pointer-events-none absolute right-3 bottom-3 rounded-sm bg-home-ink/70 px-2.5 py-1 text-[0.75rem] font-semibold text-home-white opacity-90 transition-opacity group-hover:opacity-100">
                   {labels.viewDetails}
                 </span>

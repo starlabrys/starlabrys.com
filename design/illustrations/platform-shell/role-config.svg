@@ -33,21 +33,32 @@
 
   <rect x="252" y="188" width="1296" height="42" fill="#0e1618"/>
   <text x="272" y="214" font-size="13" font-weight="700" fill="#ffffff">Role</text>
-  <text x="772" y="214" font-size="13" font-weight="700" fill="#ffffff">Theme</text>
-  <text x="1072" y="214" font-size="13" font-weight="700" fill="#ffffff">Description</text>
+  <text x="452" y="214" font-size="13" font-weight="700" fill="#ffffff">Theme</text>
+  <text x="602" y="214" font-size="13" font-weight="700" fill="#ffffff">Description</text>
+  <text x="952" y="214" font-size="13" font-weight="700" fill="#ffffff">Users</text>
+  <text x="1102" y="214" font-size="13" font-weight="700" fill="#ffffff">Status</text>
 
   <g font-size="14" fill="#3d4f54">
-    <text x="272" y="260">Role 1</text><text x="772" y="260">Light</text>
-    <text x="272" y="300">Role 2</text><text x="772" y="300">Dark</text>
-    <text x="272" y="340">Role 3</text><text x="772" y="340">Dark</text>
-    <text x="272" y="380">Role 4</text><text x="772" y="380">Light</text>
-    <text x="272" y="420">Role 5</text><text x="772" y="420">Dark</text>
-    <text x="272" y="460">Role 6</text><text x="772" y="460">Dark</text>
-    <text x="272" y="500">Role 7</text><text x="772" y="500">Light</text>
-    <text x="272" y="540">Role 8</text><text x="772" y="540">Dark</text>
+    <text x="272" y="260">Role 1</text><text x="452" y="260">Light</text><text x="602" y="260">Full platform access</text><text x="952" y="260">4</text>
+    <text x="272" y="300">Role 2</text><text x="452" y="300">Dark</text><text x="602" y="300">Read-only access to dashboards</text><text x="952" y="300">12</text>
+    <text x="272" y="340">Role 3</text><text x="452" y="340">Dark</text><text x="602" y="340">Manage devices and configurations</text><text x="952" y="340">6</text>
+    <text x="272" y="380">Role 4</text><text x="452" y="380">Light</text><text x="602" y="380">View reports only</text><text x="952" y="380">9</text>
+    <text x="272" y="420">Role 5</text><text x="452" y="420">Dark</text><text x="602" y="420">Approve and audit changes</text><text x="952" y="420">3</text>
+    <text x="272" y="460">Role 6</text><text x="452" y="460">Dark</text><text x="602" y="460">Manage users and roles</text><text x="952" y="460">2</text>
+    <text x="272" y="500">Role 7</text><text x="452" y="500">Light</text><text x="602" y="500">Limited access to one workspace</text><text x="952" y="500">5</text>
+    <text x="272" y="540">Role 8</text><text x="452" y="540">Dark</text><text x="602" y="540">API access only</text><text x="952" y="540">7</text>
+  </g>
+  <g font-size="13" font-weight="700">
+    <text x="1102" y="260" fill="#0a4f4c">Active</text>
+    <text x="1102" y="300" fill="#0a4f4c">Active</text>
+    <text x="1102" y="340" fill="#0a4f4c">Active</text>
+    <text x="1102" y="380" fill="#0a4f4c">Active</text>
+    <text x="1102" y="420" fill="#0a4f4c">Active</text>
+    <text x="1102" y="460" fill="#0a4f4c">Active</text>
+    <text x="1102" y="500" fill="#8a9a9d">Disabled</text>
+    <text x="1102" y="540" fill="#0a4f4c">Active</text>
   </g>
   <g stroke="rgba(14,22,24,0.1)">
-    <line x1="252" y1="245" x2="1548" y2="245"/>
     <line x1="252" y1="280" x2="1548" y2="280"/>
     <line x1="252" y1="320" x2="1548" y2="320"/>
     <line x1="252" y1="360" x2="1548" y2="360"/>
