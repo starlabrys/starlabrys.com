@@ -1,0 +1,93 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1600" height="520" fill="#ffffff"/>
+  <rect x="24" y="24" width="180" height="36" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="40" y="47" font-size="13" fill="#3d4f54">Request ID ▾</text>
+  <rect x="216" y="24" width="220" height="36" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="232" y="47" font-size="13" fill="#3d4f54">REQ-2026-0001</text>
+  <rect x="448" y="24" width="90" height="36" rx="6" fill="#0f6e6a"/>
+  <text x="470" y="47" font-size="13" fill="#ffffff" font-weight="700">Search</text>
+  <rect x="548" y="24" width="86" height="36" rx="6" fill="#ffffff" stroke="#0f6e6a"/>
+  <text x="568" y="47" font-size="13" fill="#0f6e6a" font-weight="700">Reset</text>
+
+  <rect x="1352" y="24" width="90" height="36" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="1372" y="47" font-size="13" fill="#3d4f54" font-weight="700">Export</text>
+  <rect x="1452" y="24" width="140" height="36" rx="6" fill="#0f6e6a"/>
+  <text x="1470" y="47" font-size="13" fill="#ffffff" font-weight="700">+ New request</text>
+
+  <rect x="24" y="82" width="1552" height="40" fill="#f4f7f8"/>
+  <g font-size="12" font-weight="700" fill="#3d4f54" letter-spacing="0.5">
+    <text x="40" y="106">REQUEST ID</text>
+    <text x="240" y="106">TITLE</text>
+    <text x="620" y="106">REQUESTER</text>
+    <text x="780" y="106">STATUS</text>
+    <text x="960" y="106">PRIORITY</text>
+    <text x="1100" y="106">CREATED</text>
+    <text x="1300" y="106">UPDATED</text>
+  </g>
+
+  <g font-size="13" fill="#0e1618">
+    <text x="40" y="150" fill="#0f6e6a">REQ-2026-0118</text>
+    <text x="240" y="150">Update access rule set</text>
+    <text x="620" y="150" fill="#3d4f54">user-1</text>
+    <rect x="778" y="134" width="96" height="22" rx="11" fill="#e8eef0"/><text x="792" y="150" font-size="11" fill="#3d4f54">Dry-run OK</text>
+    <text x="960" y="150">High</text>
+    <text x="1100" y="150">Jan 18</text>
+    <text x="1300" y="150">Jan 18</text>
+
+    <text x="40" y="196" fill="#0f6e6a">REQ-2026-0117</text>
+    <text x="240" y="196">Adjust routing entry</text>
+    <text x="620" y="196" fill="#3d4f54">user-2</text>
+    <rect x="778" y="180" width="118" height="22" rx="11" fill="#f3e6cf"/><text x="792" y="196" font-size="11" fill="#8a5a1f">Planning review</text>
+    <text x="960" y="196">Medium</text>
+    <text x="1100" y="196">Jan 17</text>
+    <text x="1300" y="196">Jan 18</text>
+
+    <text x="40" y="242" fill="#0f6e6a">REQ-2026-0116</text>
+    <text x="240" y="242">Add service endpoint</text>
+    <text x="620" y="242" fill="#3d4f54">user-3</text>
+    <rect x="778" y="226" width="110" height="22" rx="11" fill="#dfeceb"/><text x="792" y="242" font-size="11" fill="#0a4f4c">Approved</text>
+    <text x="960" y="242">High</text>
+    <text x="1100" y="242">Jan 16</text>
+    <text x="1300" y="242">Jan 17</text>
+
+    <text x="40" y="288" fill="#0f6e6a">REQ-2026-0115</text>
+    <text x="240" y="288">Temporary access window</text>
+    <text x="620" y="288" fill="#3d4f54">user-4</text>
+    <rect x="778" y="272" width="130" height="22" rx="11" fill="#e2ecf5"/><text x="792" y="288" font-size="11" fill="#2f5a82">Submitted</text>
+    <text x="960" y="288">Low</text>
+    <text x="1100" y="288">Jan 15</text>
+    <text x="1300" y="288">Jan 15</text>
+
+    <text x="40" y="334" fill="#0f6e6a">REQ-2026-0114</text>
+    <text x="240" y="334">Sync configuration baseline</text>
+    <text x="620" y="334" fill="#3d4f54">user-5</text>
+    <rect x="778" y="318" width="96" height="22" rx="11" fill="#f2dede"/><text x="792" y="334" font-size="11" fill="#8a3a34">Rejected</text>
+    <text x="960" y="334">Medium</text>
+    <text x="1100" y="334">Jan 14</text>
+    <text x="1300" y="334">Jan 15</text>
+
+    <text x="40" y="380" fill="#0f6e6a">REQ-2026-0113</text>
+    <text x="240" y="380">Add health-check endpoint</text>
+    <text x="620" y="380" fill="#3d4f54">user-1</text>
+    <rect x="778" y="364" width="106" height="22" rx="11" fill="#dfeceb"/><text x="792" y="380" font-size="11" fill="#0a4f4c">Committed</text>
+    <text x="960" y="380">Low</text>
+    <text x="1100" y="380">Jan 12</text>
+    <text x="1300" y="380">Jan 13</text>
+  </g>
+  <g stroke="rgba(14,22,24,0.08)">
+    <line x1="24" y1="164" x2="1576" y2="164"/>
+    <line x1="24" y1="210" x2="1576" y2="210"/>
+    <line x1="24" y1="256" x2="1576" y2="256"/>
+    <line x1="24" y1="302" x2="1576" y2="302"/>
+    <line x1="24" y1="348" x2="1576" y2="348"/>
+  </g>
+
+  <text x="24" y="432" font-size="13" fill="#3d4f54">Showing 1–6 of 128</text>
+  <g font-size="13" fill="#3d4f54">
+    <rect x="1400" y="416" width="26" height="26" rx="4" fill="#f4f7f8"/><text x="1408" y="434">‹</text>
+    <rect x="1432" y="416" width="26" height="26" rx="4" fill="#0f6e6a"/><text x="1440" y="434" fill="#fff">1</text>
+    <rect x="1464" y="416" width="26" height="26" rx="4" fill="#f4f7f8"/><text x="1472" y="434">2</text>
+    <rect x="1496" y="416" width="26" height="26" rx="4" fill="#f4f7f8"/><text x="1504" y="434">3</text>
+    <rect x="1528" y="416" width="26" height="26" rx="4" fill="#f4f7f8"/><text x="1536" y="434">›</text>
+  </g>
+</svg>

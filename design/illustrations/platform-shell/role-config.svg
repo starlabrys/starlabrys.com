@@ -1,0 +1,63 @@
+<svg width="1600" height="780" viewBox="0 0 1600 780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1600" height="780" fill="#f4f7f8"/>
+  <rect x="0" y="0" width="1600" height="56" fill="#0e1618"/>
+  <rect x="28" y="21" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <rect x="28" y="27" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <rect x="28" y="33" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <circle cx="1548" cy="28" r="13" fill="#0f6e6a"/>
+
+  <rect x="0" y="56" width="220" height="724" fill="#182225"/>
+  <g font-size="14" fill="#c9d4d6">
+    <rect x="0" y="80" width="220" height="42" fill="rgba(15,110,106,0.25)"/>
+    <rect x="0" y="80" width="4" height="42" fill="#14b8ad"/>
+    <text x="24" y="106" font-weight="700" fill="#e8eef0">Access control</text>
+    <text x="24" y="158">Users</text>
+    <text x="24" y="200" font-weight="700" fill="#c9d4d6">Roles</text>
+    <text x="24" y="242" font-weight="700" fill="#e8eef0">Navigation</text>
+    <text x="24" y="284">Menu resources</text>
+  </g>
+
+  <text x="252" y="106" font-size="24" font-weight="700" fill="#0e1618">Roles</text>
+
+  <rect x="252" y="130" width="90" height="34" rx="6" fill="#0f6e6a"/>
+  <text x="278" y="152" font-size="13" fill="#ffffff" font-weight="700">Add</text>
+  <rect x="352" y="130" width="90" height="34" rx="6" fill="#ffffff" stroke="#0f6e6a"/>
+  <text x="376" y="152" font-size="13" fill="#0f6e6a" font-weight="700">Edit</text>
+  <rect x="452" y="130" width="100" height="34" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="470" y="152" font-size="13" fill="#7a3b34" font-weight="700">Delete</text>
+  <rect x="562" y="130" width="110" height="34" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="582" y="152" font-size="13" fill="#3d4f54" font-weight="700">Refresh</text>
+
+  <rect x="1300" y="130" width="248" height="34" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.15)"/>
+  <text x="1314" y="152" font-size="12" fill="#8a9a9d">Search…</text>
+
+  <rect x="252" y="188" width="1296" height="42" fill="#0e1618"/>
+  <text x="272" y="214" font-size="13" font-weight="700" fill="#ffffff">Role</text>
+  <text x="772" y="214" font-size="13" font-weight="700" fill="#ffffff">Theme</text>
+  <text x="1072" y="214" font-size="13" font-weight="700" fill="#ffffff">Description</text>
+
+  <g font-size="14" fill="#3d4f54">
+    <text x="272" y="260">Role 1</text><text x="772" y="260">Light</text>
+    <text x="272" y="300">Role 2</text><text x="772" y="300">Dark</text>
+    <text x="272" y="340">Role 3</text><text x="772" y="340">Dark</text>
+    <text x="272" y="380">Role 4</text><text x="772" y="380">Light</text>
+    <text x="272" y="420">Role 5</text><text x="772" y="420">Dark</text>
+    <text x="272" y="460">Role 6</text><text x="772" y="460">Dark</text>
+    <text x="272" y="500">Role 7</text><text x="772" y="500">Light</text>
+    <text x="272" y="540">Role 8</text><text x="772" y="540">Dark</text>
+  </g>
+  <g stroke="rgba(14,22,24,0.1)">
+    <line x1="252" y1="245" x2="1548" y2="245"/>
+    <line x1="252" y1="280" x2="1548" y2="280"/>
+    <line x1="252" y1="320" x2="1548" y2="320"/>
+    <line x1="252" y1="360" x2="1548" y2="360"/>
+    <line x1="252" y1="400" x2="1548" y2="400"/>
+    <line x1="252" y1="440" x2="1548" y2="440"/>
+    <line x1="252" y1="480" x2="1548" y2="480"/>
+    <line x1="252" y1="520" x2="1548" y2="520"/>
+    <line x1="252" y1="560" x2="1548" y2="560"/>
+  </g>
+
+  <text x="252" y="600" font-size="13" fill="#3d4f54">Rows per page: 8</text>
+  <text x="1440" y="600" font-size="13" fill="#3d4f54" text-anchor="end">1–8 of 42</text>
+</svg>

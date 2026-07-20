@@ -14,7 +14,7 @@ hero:
   lede: "Starlabrys is a project-led software company.\nWe take on custom development and system delivery, walking clients from requirements to working results."
   ctaPrimary: "Contact us"
   ctaSecondary: "See our work"
-  image: "/SPIS/data.png"
+  image: "/images/platform-shell/data-overview.png"
 services:
   title: "How we run projects"
   intro: "We don't sell a standard product. We initiate, design, build, and deliver against business goals — so every phase of investment maps to an outcome you can accept."
@@ -64,10 +64,10 @@ work:
   title: "Selected projects"
   intro: "Here are some of the projects we've delivered — for example in network automation, AI, and Python microservices."
   stories:
-    - slug: "firewall-automation"
-      title: "Automated firewall policy rollout"
-      body: "Built workflows to prepare and push firewall rules automatically — reducing manual change risk and improving control."
-      image: "/images/firewall/main.png"
+    - slug: "device-config-rollout"
+      title: "Automated device configuration rollout"
+      body: "Built workflows to prepare and push network device configuration changes automatically — reducing manual change risk and improving control."
+      image: "/images/device-config/requests.png"
     - slug: "ai-log-analysis"
       title: "AI-powered log analysis"
       body: "Built log analysis capabilities that help teams spot anomalies and critical signals faster in high-volume data."
@@ -75,7 +75,7 @@ work:
     - slug: "python-microservices"
       title: "Python microservices framework"
       body: "A Kong-based microservices shell: proxy and access control, multi-project import, configurable users / menus / roles — plug in business services without rebuilding the platform each time."
-      image: "/SPIS/data.png"
+      image: "/images/platform-shell/data-overview.png"
 insights:
   title: "Notes from project practice"
   intro: "Frontline experience on scoping, delivery, and engineering that lands."

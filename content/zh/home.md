@@ -14,7 +14,7 @@ hero:
   lede: "Starlabrys 是一家以项目交付为主的软件公司。\n我们承接定制开发与系统落地，陪客户从需求走到可运行的结果。"
   ctaPrimary: "联系我们"
   ctaSecondary: "查看案例"
-  image: "/SPIS/data.png"
+  image: "/images/platform-shell/data-overview.png"
 services:
   title: "我们怎么做项目"
   intro: "不是卖标准化产品，而是按业务目标立项、设计、开发与交付——让每一期投入都对应可验收的成果。"
@@ -64,10 +64,10 @@ work:
   title: "精选项目"
   intro: "以下是我们交付过的部分项目，例如网络自动化、AI 与 Python 微服务。"
   stories:
-    - slug: "firewall-automation"
-      title: "防火墙策略自动化下发"
-      body: "构建防火墙规则准备与自动下发流程，降低人工变更风险，提升变更可控性。"
-      image: "/images/firewall/main.png"
+    - slug: "device-config-rollout"
+      title: "设备配置自动化下发"
+      body: "构建网络设备配置准备与自动下发流程，降低人工变更风险，提升变更可控性。"
+      image: "/images/device-config/requests.png"
     - slug: "ai-log-analysis"
       title: "AI 日志自动分析"
       body: "构建日志分析能力，帮助团队从海量日志中更快识别异常与关键信号。"
@@ -75,7 +75,7 @@ work:
     - slug: "python-microservices"
       title: "Python 微服务框架"
       body: "基于 Kong 的微服务接入框架：代理与权限、多项目导入、可配置用户 / 菜单 / 角色，业务服务按需挂载，平台能力与业务解耦。"
-      image: "/SPIS/data.png"
+      image: "/images/platform-shell/data-overview.png"
 insights:
   title: "项目实践笔记"
   intro: "关于立项、交付与工程落地的一线经验。"

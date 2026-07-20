@@ -51,7 +51,7 @@ export interface HomeContent {
       eyebrow?: string;
       title: string;
       body: string;
-      /** 相对站点根路径，如 /images/firewall/main.png */
+      /** 相对站点根路径，如 /images/device-config/requests.png */
       image?: string;
     }[];
   };
