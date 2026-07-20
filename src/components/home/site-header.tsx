@@ -16,12 +16,13 @@ export default function SiteHeader({
 }) {
   const [open, setOpen] = useState(false);
 
+  const home = `/${locale}`;
   const items = [
-    { href: "#services", label: nav.services },
-    { href: "#capabilities", label: nav.capabilities },
-    { href: "#work", label: nav.work },
-    { href: "#insights", label: nav.insights },
-    { href: "#contact", label: nav.contact },
+    { href: `${home}#services`, label: nav.services },
+    { href: `${home}#capabilities`, label: nav.capabilities },
+    { href: `${home}#work`, label: nav.work },
+    { href: `${home}#insights`, label: nav.insights },
+    { href: `${home}#contact`, label: nav.contact },
   ];
 
   return (

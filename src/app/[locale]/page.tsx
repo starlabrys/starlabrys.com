@@ -43,7 +43,7 @@ export default async function HomePage({
         <Services services={content.services} />
         <Outcomes outcomes={content.outcomes} />
         <Scale scale={content.scale} />
-        <Work work={content.work} />
+        <Work work={content.work} locale={locale} />
         <Insights insights={content.insights} />
         <ContactCta contact={content.contact} />
       </main>

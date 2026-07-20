@@ -1,0 +1,27 @@
+---
+title: "AI-powered log analysis"
+description: "Log analysis that helps teams spot anomalies and critical signals faster in high-volume data."
+eyebrow: "AI engineering"
+image: "/images/ai-log/dashboard.png"
+summary: "In high-volume log environments, turn manual searching into practical anomaly detection and signal triage — from report overview and root-cause analysis to a reusable rules library."
+backLabel: "Back to selected projects"
+contactCta: "Talk about a similar project"
+galleryTitle: "Product screens"
+sections:
+  - title: "Context & challenge"
+    body: "Production logs are noisy and high-volume. Manual search is slow, critical anomalies get buried, troubleshooting costs climb, and reusable analysis paths rarely form."
+  - title: "What we did"
+    body: "We modeled real alert and triage scenarios: clean and structure logs, extract key fields, combine rules with model-assisted detection for anomalies and critical signals, and return explainable results to ops and business teams."
+  - title: "Outcome"
+    body: "Teams find anomalies and critical events faster with less blind searching. The capability ships within clear project boundaries and can embed into existing monitoring, ticketing, or on-call flows for ongoing use."
+gallery:
+  - src: "/images/ai-log/dashboard.png"
+    title: "Main view · Reports"
+    body: "The dashboard aggregates Open, Ignored, and Fixed reports, with filters by severity and service. Each card shows which engine analyzed it (e.g. gpt-4o, rule engine), so on-call teams can spot Critical / High issues and jump into triage."
+  - src: "/images/ai-log/details.png"
+    title: "Detail report · Root cause"
+    body: "A single error report connects metadata, stack traces, surrounding log context, and AI root-cause notes. For NullPointer cases, it highlights likely triggers such as uninitialized context — moving from “found an error” to “understood why.”"
+  - src: "/images/ai-log/rules.png"
+    title: "Rules library"
+    body: "The Rules view manages detection patterns: manual rules and AI-learned suggestions, filterable by category, severity, and source. Operators can Promote or delete AI suggestions so useful patterns become lasting detection assets."
+---

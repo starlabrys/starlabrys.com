@@ -18,7 +18,7 @@ export default function Outcomes({
             {outcomes.intro}
           </p>
         </Reveal>
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {outcomes.items.map((item, i) => (
             <article key={item.title}>
               <Reveal delay={Math.min(i, 2) as 0 | 1 | 2}>
