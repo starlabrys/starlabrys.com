@@ -109,7 +109,7 @@ export default function Work({
           >
             <article
               aria-live="polite"
-              className="grid items-center gap-8 md:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)]"
+              className="grid items-start gap-8 md:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)]"
             >
               <Link
                 href={detailHref}

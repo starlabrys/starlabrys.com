@@ -10,6 +10,7 @@ import Work from "@/components/home/work";
 import Insights from "@/components/home/insights";
 import ContactCta from "@/components/home/contact-cta";
 import SiteFooter from "@/components/home/site-footer";
+import SiteAdvisor from "@/components/home/site-advisor";
 
 export async function generateMetadata({
   params,
@@ -48,6 +49,7 @@ export default async function HomePage({
         <ContactCta contact={content.contact} />
       </main>
       <SiteFooter locale={locale} footer={content.footer} />
+      <SiteAdvisor locale={locale} />
     </div>
   );
 }

@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "next dev --port 30000 --hostname 0.0.0.0",
+    "build": "npm run advisor:kb && next build",
+    "start": "next start --port 30000",
+    "lint": "eslint",
+    "advisor:kb": "node scripts/build-advisor-kb.mjs",
+    "advisor:dev": "uv run --directory advisor uvicorn app.main:app --reload --host 0.0.0.0 --port 30001",
+    "prod:all": "node scripts/prod-all.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

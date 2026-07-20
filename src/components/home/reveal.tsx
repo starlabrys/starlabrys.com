@@ -12,38 +12,47 @@ export default function Reveal({
   className?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  const [revealed, setRevealed] = useState(true);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      const frame = requestAnimationFrame(() => setVisible(true));
-      return () => cancelAnimationFrame(frame);
+      return;
     }
+
+    setRevealed(false);
+
+    const show = () => setRevealed(true);
 
     const io = new IntersectionObserver(
       (entries) => {
-        entries.forEach((entry) => {
+        for (const entry of entries) {
           if (entry.isIntersecting) {
-            setVisible(true);
+            show();
             io.unobserve(entry.target);
           }
-        });
+        }
       },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.01 },
     );
     io.observe(el);
-    return () => io.disconnect();
+
+    const fallback = window.setTimeout(show, 500);
+
+    return () => {
+      io.disconnect();
+      window.clearTimeout(fallback);
+    };
   }, []);
 
   return (
     <div
       ref={ref}
-      style={{ transitionDelay: visible ? `${delay * 120}ms` : "0ms" }}
+      style={{ transitionDelay: revealed ? `${delay * 120}ms` : "0ms" }}
       className={`transition-all duration-700 ease-out ${
-        visible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+        revealed ? "translate-y-0 opacity-100" : "translate-y-4 opacity-100"
       } ${className}`}
     >
       {children}
