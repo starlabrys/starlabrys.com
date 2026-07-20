@@ -1,0 +1,57 @@
+<svg width="1700" height="620" viewBox="0 0 1700 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1700" height="620" fill="#ffffff"/>
+  <text x="24" y="30" font-size="13" fill="#8a9a9d">Illustrative view · sample data</text>
+
+  <text x="24" y="66" font-size="14" fill="#8a9a9d">Interface</text>
+  <text x="120" y="66" font-size="14" font-weight="700" fill="#0f6e6a">Routing</text>
+  <line x1="120" y1="74" x2="196" y2="74" stroke="#0f6e6a" stroke-width="2"/>
+  <text x="220" y="66" font-size="14" fill="#8a9a9d">Subnet</text>
+  <line x1="0" y1="86" x2="1700" y2="86" stroke="rgba(14,22,24,0.1)"/>
+
+  <rect x="24" y="104" width="180" height="32" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="40" y="125" font-size="12" fill="#3d4f54">198.51.100.0</text>
+  <rect x="216" y="104" width="180" height="32" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="232" y="125" font-size="12" fill="#3d4f54">Receiving device ▾</text>
+  <rect x="408" y="104" width="140" height="32" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.2)"/>
+  <text x="424" y="125" font-size="12" fill="#3d4f54">Type: all</text>
+  <rect x="560" y="104" width="90" height="32" rx="6" fill="#0f6e6a"/>
+  <text x="582" y="125" font-size="12" fill="#ffffff" font-weight="700">Search</text>
+  <rect x="660" y="104" width="86" height="32" rx="6" fill="#ffffff" stroke="#0f6e6a"/>
+  <text x="680" y="125" font-size="12" fill="#0f6e6a" font-weight="700">Reset</text>
+
+  <rect x="24" y="160" width="1652" height="32" fill="#0f6e6a"/>
+  <g font-size="11" font-weight="700" fill="#ffffff">
+    <text x="40" y="181">ROUTE</text>
+    <text x="180" y="181">NEXT-HOP / SOURCE</text>
+    <text x="360" y="181">KNOWN</text>
+    <text x="450" y="181">RECEIVING DEVICE</text>
+    <text x="620" y="181">CONTEXT</text>
+    <text x="720" y="181">VRF</text>
+    <text x="820" y="181">EGRESS IF</text>
+    <text x="960" y="181">TYPE</text>
+    <text x="1060" y="181">DEVICE IP</text>
+    <text x="1220" y="181">ZONE</text>
+  </g>
+
+  <g font-size="12" fill="#3d4f54">
+    <text x="40" y="216">198.51.100.0/24</text><text x="180" y="216">192.0.2.2</text><text x="360" y="216" fill="#0a4f4c">Yes</text><text x="450" y="216">Node-01</text><text x="620" y="216">default</text><text x="720" y="216">—</text><text x="820" y="216">eth0/1</text><text x="960" y="216">bgp</text><text x="1060" y="216">192.0.2.1</text><text x="1220" y="216">Internal</text>
+    <text x="40" y="248">203.0.113.44/32</text><text x="180" y="248">192.0.2.21</text><text x="360" y="248" fill="#0a4f4c">Yes</text><text x="450" y="248">Node-05</text><text x="620" y="248">root</text><text x="720" y="248">—</text><text x="820" y="248">port8</text><text x="960" y="248">static</text><text x="1060" y="248">192.0.2.21</text><text x="1220" y="248">External</text>
+    <text x="40" y="280">198.18.50.0/24</text><text x="180" y="280">192.0.2.8</text><text x="360" y="280" fill="#0a4f4c">Yes</text><text x="450" y="280">Node-03</text><text x="620" y="280">vsys1</text><text x="720" y="280">prod</text><text x="820" y="280">eth1/3</text><text x="960" y="280">connected</text><text x="1060" y="280">192.0.2.8</text><text x="1220" y="280">DMZ</text>
+    <text x="40" y="312">203.0.113.90/32</text><text x="180" y="312">Node-06</text><text x="360" y="312" fill="#0a4f4c">Yes</text><text x="450" y="312">Node-06</text><text x="620" y="312">vsys1</text><text x="720" y="312">—</text><text x="820" y="312">eth1/7</text><text x="960" y="312">static</text><text x="1060" y="312">192.0.2.11</text><text x="1220" y="312">External</text>
+    <text x="40" y="344">198.51.100.128/25</text><text x="180" y="344">192.0.2.5</text><text x="360" y="344" fill="#0a4f4c">Yes</text><text x="450" y="344">Node-04</text><text x="620" y="344">prod</text><text x="720" y="344">common</text><text x="820" y="344">po205</text><text x="960" y="344">bgp</text><text x="1060" y="344">192.0.2.10</text><text x="1220" y="344">Internal</text>
+    <text x="40" y="376">192.0.2.0/24</text><text x="180" y="376">192.0.2.1</text><text x="360" y="376" fill="#8a3a34">No</text><text x="450" y="376">Node-07</text><text x="620" y="376">global</text><text x="720" y="376">oob</text><text x="820" y="376">eth0/24</text><text x="960" y="376">static</text><text x="1060" y="376">192.0.2.99</text><text x="1220" y="376">Mgmt</text>
+    <text x="40" y="408">0.0.0.0/0</text><text x="180" y="408">192.0.2.1</text><text x="360" y="408" fill="#0a4f4c">Yes</text><text x="450" y="408">Node-01</text><text x="620" y="408">global</text><text x="720" y="408">default</text><text x="820" y="408">eth0/0</text><text x="960" y="408">static</text><text x="1060" y="408">192.0.2.11</text><text x="1220" y="408">External</text>
+    <text x="40" y="440">203.0.113.208/32</text><text x="180" y="440">192.0.2.21</text><text x="360" y="440" fill="#0a4f4c">Yes</text><text x="450" y="440">Node-05</text><text x="620" y="440">root</text><text x="720" y="440">—</text><text x="820" y="440">port3</text><text x="960" y="440">static</text><text x="1060" y="440">192.0.2.21</text><text x="1220" y="440">Internal</text>
+  </g>
+  <g stroke="rgba(14,22,24,0.08)">
+    <line x1="24" y1="196" x2="1676" y2="196"/>
+    <line x1="24" y1="228" x2="1676" y2="228"/>
+    <line x1="24" y1="260" x2="1676" y2="260"/>
+    <line x1="24" y1="292" x2="1676" y2="292"/>
+    <line x1="24" y1="324" x2="1676" y2="324"/>
+    <line x1="24" y1="356" x2="1676" y2="356"/>
+    <line x1="24" y1="388" x2="1676" y2="388"/>
+    <line x1="24" y1="420" x2="1676" y2="420"/>
+  </g>
+  <text x="24" y="470" font-size="13" fill="#3d4f54">Total: 1,240 · Page size 10</text>
+</svg>

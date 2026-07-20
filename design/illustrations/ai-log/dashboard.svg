@@ -1,0 +1,86 @@
+<svg width="1700" height="780" viewBox="0 0 1700 780" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1700" height="780" fill="#0e1618"/>
+  <rect x="0" y="0" width="1700" height="70" fill="#182225"/>
+  <text x="32" y="42" font-size="20" font-weight="700" fill="#e8eef0">Report center</text>
+  <rect x="240" y="24" width="90" height="24" rx="12" fill="#0f6e6a"/>
+  <text x="256" y="41" font-size="12" fill="#ffffff" font-weight="700">4 reports</text>
+  <rect x="1500" y="22" width="168" height="28" rx="14" fill="rgba(197,228,225,0.15)"/>
+  <circle cx="1516" cy="36" r="4" fill="#f0b73a"/>
+  <text x="1528" y="41" font-size="12" fill="#c9d4d6">Analyzing… +2 queued</text>
+
+  <rect x="32" y="90" width="1636" height="46" rx="6" fill="rgba(15,110,106,0.22)" stroke="#0f6e6a"/>
+  <text x="52" y="118" font-size="13" fill="#c5e4e1">New report: service-a_Error_20260118_0847.md   [Critical]</text>
+
+  <text x="32" y="176" font-size="15" font-weight="700" fill="#e8eef0">Reports</text>
+  <text x="120" y="176" font-size="15" fill="#7a8b8e">Rules</text>
+
+  <rect x="32" y="196" width="620" height="34" rx="6" fill="#182225" stroke="rgba(255,255,255,0.1)"/>
+  <text x="48" y="218" font-size="12" fill="#7a8b8e">Search reports…</text>
+  <rect x="668" y="196" width="140" height="34" rx="6" fill="#182225" stroke="rgba(255,255,255,0.1)"/>
+  <text x="682" y="218" font-size="12" fill="#c9d4d6">All services</text>
+  <rect x="820" y="196" width="150" height="34" rx="6" fill="#182225" stroke="rgba(255,255,255,0.1)"/>
+  <text x="834" y="218" font-size="12" fill="#c9d4d6">All severities</text>
+  <rect x="1462" y="196" width="90" height="34" rx="6" fill="#0f6e6a"/>
+  <text x="1484" y="218" font-size="12" fill="#fff" font-weight="700">Refresh</text>
+
+  <g font-size="13" fill="#c9d4d6">
+    <rect x="32" y="248" width="90" height="30" rx="15" fill="#0f6e6a"/><text x="52" y="268" fill="#fff">Open 4</text>
+    <rect x="132" y="248" width="100" height="30" rx="15" fill="rgba(255,255,255,0.06)"/><text x="150" y="268">Ignored 1</text>
+    <rect x="242" y="248" width="90" height="30" rx="15" fill="rgba(255,255,255,0.06)"/><text x="258" y="268">Fixed 1</text>
+    <rect x="342" y="248" width="60" height="30" rx="15" fill="rgba(255,255,255,0.06)"/><text x="358" y="268">All</text>
+  </g>
+  <g font-size="13" font-weight="700">
+    <circle cx="1300" cy="263" r="5" fill="#d9564b"/><text x="1312" y="268" fill="#c9d4d6">Critical: 2</text>
+    <circle cx="1400" cy="263" r="5" fill="#e2a53a"/><text x="1412" y="268" fill="#c9d4d6">High: 2</text>
+    <circle cx="1490" cy="263" r="5" fill="#4a90c9"/><text x="1500" y="268" fill="#c9d4d6">Medium: 1</text>
+    <circle cx="1600" cy="263" r="5" fill="#3fae6a"/><text x="1610" y="268" fill="#c9d4d6">Low: 1</text>
+  </g>
+
+  <!-- report cards -->
+  <g>
+    <rect x="32" y="298" width="520" height="140" rx="8" fill="#182225"/>
+    <rect x="32" y="298" width="4" height="140" fill="#d9564b"/>
+    <rect x="52" y="316" width="88" height="22" rx="4" fill="rgba(255,255,255,0.08)"/><text x="64" y="332" font-size="11" fill="#c9d4d6">service-a</text>
+    <rect x="148" y="316" width="70" height="22" rx="4" fill="#4a1f1c"/><text x="160" y="332" font-size="11" fill="#f0a89e">CRITICAL</text>
+    <rect x="226" y="316" width="80" height="22" rx="11" fill="rgba(197,228,225,0.15)"/><text x="238" y="332" font-size="11" fill="#c5e4e1">Model A</text>
+    <text x="500" y="332" font-size="11" fill="#7a8b8e" text-anchor="end">01-18 08:47</text>
+    <text x="52" y="368" font-size="13" fill="#e8eef0">service-a_NullError_20260118_0847.md</text>
+    <text x="52" y="410" font-size="11" fill="#7a8b8e">12.4 KB</text>
+    <text x="500" y="410" font-size="11" fill="#7a8b8e" text-anchor="end">#a3f91c</text>
+
+    <rect x="572" y="298" width="520" height="140" rx="8" fill="#182225"/>
+    <rect x="572" y="298" width="4" height="140" fill="#e2a53a"/>
+    <rect x="592" y="316" width="88" height="22" rx="4" fill="rgba(255,255,255,0.08)"/><text x="604" y="332" font-size="11" fill="#c9d4d6">service-b</text>
+    <rect x="688" y="316" width="52" height="22" rx="4" fill="#4a3a1c"/><text x="698" y="332" font-size="11" fill="#f0d29e">HIGH</text>
+    <rect x="748" y="316" width="70" height="22" rx="11" fill="rgba(197,228,225,0.15)"/><text x="760" y="332" font-size="11" fill="#c5e4e1">Hybrid</text>
+    <text x="1040" y="332" font-size="11" fill="#7a8b8e" text-anchor="end">01-18 07:33</text>
+    <text x="592" y="368" font-size="13" fill="#e8eef0">service-b_Timeout_20260118_0733.md</text>
+    <text x="592" y="410" font-size="11" fill="#7a8b8e">9.1 KB</text>
+    <text x="1040" y="410" font-size="11" fill="#7a8b8e" text-anchor="end">#b82e01</text>
+
+    <rect x="1112" y="298" width="520" height="140" rx="8" fill="#182225"/>
+    <rect x="1112" y="298" width="4" height="140" fill="#d9564b"/>
+    <rect x="1132" y="316" width="100" height="22" rx="4" fill="rgba(255,255,255,0.08)"/><text x="1144" y="332" font-size="11" fill="#c9d4d6">service-c</text>
+    <rect x="1240" y="316" width="70" height="22" rx="4" fill="#4a1f1c"/><text x="1252" y="332" font-size="11" fill="#f0a89e">CRITICAL</text>
+    <rect x="1318" y="316" width="80" height="22" rx="11" fill="rgba(197,228,225,0.15)"/><text x="1330" y="332" font-size="11" fill="#c5e4e1">Model B</text>
+    <text x="1580" y="332" font-size="11" fill="#7a8b8e" text-anchor="end">01-17 22:11</text>
+    <text x="1132" y="368" font-size="13" fill="#e8eef0">service-c_ConnRefused_20260117_2211.md</text>
+    <text x="1132" y="410" font-size="11" fill="#7a8b8e">15.8 KB</text>
+    <text x="1580" y="410" font-size="11" fill="#7a8b8e" text-anchor="end">#c11d44</text>
+
+    <rect x="32" y="454" width="520" height="140" rx="8" fill="#182225"/>
+    <rect x="32" y="454" width="4" height="140" fill="#e2a53a"/>
+    <rect x="52" y="472" width="110" height="22" rx="4" fill="rgba(255,255,255,0.08)"/><text x="64" y="488" font-size="11" fill="#c9d4d6">service-d</text>
+    <rect x="168" y="472" width="52" height="22" rx="4" fill="#4a3a1c"/><text x="178" y="488" font-size="11" fill="#f0d29e">HIGH</text>
+    <rect x="228" y="472" width="96" height="22" rx="11" fill="rgba(197,228,225,0.15)"/><text x="240" y="488" font-size="11" fill="#c5e4e1">Rule engine</text>
+    <text x="500" y="488" font-size="11" fill="#7a8b8e" text-anchor="end">01-17 15:44</text>
+    <text x="52" y="524" font-size="13" fill="#e8eef0">service-d_HeapOOM_20260117_1544.md</text>
+    <text x="52" y="566" font-size="11" fill="#7a8b8e">6.2 KB</text>
+    <text x="500" y="566" font-size="11" fill="#7a8b8e" text-anchor="end">#d90ab2</text>
+  </g>
+
+  <text x="740" y="700" font-size="13" fill="#7a8b8e">‹ Prev</text>
+  <rect x="820" y="680" width="30" height="30" rx="6" fill="#0f6e6a"/><text x="830" y="700" font-size="13" fill="#fff">1</text>
+  <text x="864" y="700" font-size="13" fill="#7a8b8e">Next ›</text>
+  <text x="940" y="700" font-size="13" fill="#7a8b8e">Showing 1–4 of 6</text>
+</svg>

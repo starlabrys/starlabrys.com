@@ -30,15 +30,20 @@ export default function SiteFooter({
               {column.heading}
             </h4>
             <div className="flex flex-col gap-2">
-              {column.links.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className="text-[0.9rem] text-white/75 hover:text-white"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {column.links.map((link) => {
+                const href = link.href.startsWith("#")
+                  ? `/${locale}${link.href}`
+                  : link.href;
+                return (
+                  <a
+                    key={link.label}
+                    href={href}
+                    className="text-[0.9rem] text-white/75 hover:text-white"
+                  >
+                    {link.label}
+                  </a>
+                );
+              })}
             </div>
           </div>
         ))}

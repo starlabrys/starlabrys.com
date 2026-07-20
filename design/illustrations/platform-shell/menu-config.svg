@@ -1,0 +1,90 @@
+<svg width="1600" height="800" viewBox="0 0 1600 800" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1600" height="800" fill="#f4f7f8"/>
+  <rect x="0" y="0" width="1600" height="56" fill="#0e1618"/>
+  <rect x="28" y="21" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <rect x="28" y="27" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <rect x="28" y="33" width="20" height="3" rx="1.5" fill="#c5e4e1"/>
+  <circle cx="1548" cy="28" r="13" fill="#0f6e6a"/>
+
+  <rect x="0" y="56" width="220" height="744" fill="#182225"/>
+  <g font-size="14" fill="#c9d4d6">
+    <rect x="0" y="80" width="220" height="42" fill="rgba(15,110,106,0.25)"/>
+    <rect x="0" y="80" width="4" height="42" fill="#14b8ad"/>
+    <text x="24" y="106" font-weight="700" fill="#e8eef0">Access control</text>
+    <text x="24" y="158">Users</text>
+    <text x="24" y="200">Roles</text>
+    <text x="24" y="242" font-weight="700" fill="#e8eef0">Navigation</text>
+    <text x="24" y="284">Menu resources</text>
+    <text x="24" y="326" font-weight="700" fill="#c9d4d6">Menu configuration</text>
+    <text x="24" y="368" font-weight="700" fill="#e8eef0">Notifications</text>
+    <text x="24" y="410">Mail settings</text>
+    <text x="24" y="452">Schedules</text>
+  </g>
+
+  <text x="252" y="106" font-size="24" font-weight="700" fill="#0e1618">Menu configuration</text>
+
+  <rect x="252" y="130" width="150" height="34" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.15)"/>
+  <text x="266" y="152" font-size="13" fill="#3d4f54">Project: Demo</text>
+  <rect x="414" y="130" width="180" height="34" rx="6" fill="#ffffff" stroke="rgba(14,22,24,0.15)"/>
+  <text x="428" y="152" font-size="13" fill="#3d4f54">Role: Standard User</text>
+
+  <!-- tree groups -->
+  <g>
+    <rect x="252" y="188" width="260" height="30" rx="4" fill="#dfeceb" stroke="#0f6e6a"/>
+    <text x="266" y="208" font-size="13" font-weight="700" fill="#0a4f4c">Module group A</text>
+    <line x1="266" y1="218" x2="266" y2="288" stroke="rgba(14,22,24,0.2)"/>
+    <line x1="266" y1="240" x2="284" y2="240" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="228" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="245" font-size="12" fill="#3d4f54">Sub-module A.1</text>
+    <line x1="266" y1="278" x2="284" y2="278" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="266" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="283" font-size="12" fill="#3d4f54">Sub-module A.2</text>
+  </g>
+
+  <g>
+    <rect x="252" y="316" width="260" height="30" rx="4" fill="#dfeceb" stroke="#0f6e6a"/>
+    <text x="266" y="336" font-size="13" font-weight="700" fill="#0a4f4c">Module group B</text>
+    <line x1="266" y1="346" x2="266" y2="416" stroke="rgba(14,22,24,0.2)"/>
+    <line x1="266" y1="368" x2="284" y2="368" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="356" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="373" font-size="12" fill="#3d4f54">Sub-module B.1</text>
+    <line x1="266" y1="406" x2="284" y2="406" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="394" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="411" font-size="12" fill="#3d4f54">Sub-module B.2</text>
+  </g>
+
+  <g>
+    <rect x="252" y="444" width="260" height="30" rx="4" fill="#dfeceb" stroke="#0f6e6a"/>
+    <text x="266" y="464" font-size="13" font-weight="700" fill="#0a4f4c">Module group C</text>
+    <line x1="266" y1="474" x2="266" y2="544" stroke="rgba(14,22,24,0.2)"/>
+    <line x1="266" y1="496" x2="284" y2="496" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="484" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="501" font-size="12" fill="#3d4f54">Sub-module C.1</text>
+    <line x1="266" y1="534" x2="284" y2="534" stroke="rgba(14,22,24,0.2)"/>
+    <rect x="284" y="522" width="260" height="26" rx="4" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+    <text x="296" y="539" font-size="12" fill="#3d4f54">Sub-module C.2</text>
+  </g>
+
+  <!-- right resource pool panel -->
+  <rect x="1180" y="130" width="368" height="530" rx="8" fill="#ffffff" stroke="rgba(14,22,24,0.12)"/>
+  <text x="1204" y="160" font-size="13" font-weight="700" fill="#0e1618">Resource pool</text>
+  <rect x="1204" y="176" width="320" height="30" rx="6" fill="#f4f7f8" stroke="rgba(14,22,24,0.1)"/>
+  <text x="1216" y="196" font-size="12" fill="#8a9a9d">Search modules…</text>
+  <g font-size="13" fill="#3d4f54">
+    <text x="1204" y="234">Module 01</text>
+    <text x="1204" y="266">Module 02</text>
+    <text x="1204" y="298">Module 03</text>
+    <text x="1204" y="330">Module 04</text>
+    <text x="1204" y="362">Module 05</text>
+    <text x="1204" y="394">Module 06</text>
+    <text x="1204" y="426">Module 07</text>
+    <text x="1204" y="458">Module 08</text>
+    <text x="1204" y="490">Module 09</text>
+    <text x="1204" y="522">Module 10</text>
+  </g>
+  <line x1="1204" y1="220" x2="1524" y2="220" stroke="rgba(14,22,24,0.08)"/>
+  <line x1="1204" y1="252" x2="1524" y2="252" stroke="rgba(14,22,24,0.08)"/>
+  <line x1="1204" y1="284" x2="1524" y2="284" stroke="rgba(14,22,24,0.08)"/>
+  <line x1="1204" y1="316" x2="1524" y2="316" stroke="rgba(14,22,24,0.08)"/>
+  <line x1="1204" y1="348" x2="1524" y2="348" stroke="rgba(14,22,24,0.08)"/>
+</svg>

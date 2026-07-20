@@ -1,7 +1,12 @@
 version: "3"
 
 tasks:
+  install:
+    desc: 安装依赖包 (npm ci)
+    cmds:
+      - fnm exec --using=.nvmrc -- npm ci
+
   dev:
     desc: 本地启动开发服务器 (next dev)
     cmds:
-      - npm run dev
+      - fnm exec --using=.nvmrc -- npm run dev

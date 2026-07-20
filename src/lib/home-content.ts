@@ -20,6 +20,7 @@ export interface HomeContent {
     lede: string;
     ctaPrimary: string;
     ctaSecondary: string;
+    image?: string;
   };
   services: {
     title: string;
@@ -45,7 +46,14 @@ export interface HomeContent {
   work: {
     title: string;
     intro: string;
-    stories: { eyebrow?: string; title: string; body: string }[];
+    stories: {
+      slug: string;
+      eyebrow?: string;
+      title: string;
+      body: string;
+      /** 相对站点根路径，如 /images/device-config/requests.png */
+      image?: string;
+    }[];
   };
   insights: {
     title: string;

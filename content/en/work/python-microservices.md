@@ -1,0 +1,27 @@
+---
+title: "Python microservices framework"
+description: "A Kong-based Python microservices shell: proxy, access control, menus, and mail stay independent of business logic, with multi-project import and configurable users / roles."
+eyebrow: "Platform engineering"
+image: "/images/platform-shell/data-overview.png"
+summary: "Pull proxy, auth, navigation, and notifications out of every service. Teams plug business services into the shell; the framework owns the cross-cutting platform work."
+backLabel: "Back to selected projects"
+contactCta: "Talk about a similar project"
+galleryTitle: "Product screens"
+sections:
+  - title: "The problem"
+    body: "When every microservice reinvents login, menus, and gateway wiring, platform work gets rebuilt and conventions drift. What’s needed is a business-agnostic shell: import services, configure access, and unify the entry point."
+  - title: "How the framework works"
+    body: "Kong handles service discovery and proxying. Multiple projects can be imported. Users, menus, and roles are configured on the platform side, separate from domain logic. Business services stay focused; the shell covers proxy, auth, navigation, and mail."
+  - title: "Outcome"
+    body: "New services attach to a shared entry faster. Access and menus converge by role. Ops views can embed existing data dashboards. The platform versions over time while business modules come and go without rebuilding the shell."
+gallery:
+  - src: "/images/platform-shell/data-overview.png"
+    title: "Data · Embedded Grafana"
+    body: "The data page embeds Grafana dashboards — task load, regional summaries, plan vs achieved — inside the shared shell. Teams read metrics without a second portal; navigation and permissions stay with the framework."
+  - src: "/images/platform-shell/menu-config.png"
+    title: "Menu config · Navigation"
+    body: "Compose menu trees by company and role, picking modules from a resource pool. Different projects and roles get different entries, with save and sync — instead of hard-coding menus in every business repo."
+  - src: "/images/platform-shell/role-config.png"
+    title: "Role config · Access baseline"
+    body: "Maintain roles in one place as the baseline for permissions and menu binding. Imported services reuse the same role model instead of inventing another account system per microservice."
+---

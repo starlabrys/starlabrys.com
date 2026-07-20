@@ -16,8 +16,8 @@ export default function Footer({ locale }: { locale: Locale }) {
           &copy; {new Date().getFullYear()} Starlabrys · {copy.rights}
         </p>
         <p className="mt-2">
-          <a href="mailto:wiloon.wy@gmail.com" className="hover:text-foreground">
-            wiloon.wy@gmail.com
+          <a href="mailto:contact@starlabrys.com" className="hover:text-foreground">
+            contact@starlabrys.com
           </a>
           {" · "}
           <a

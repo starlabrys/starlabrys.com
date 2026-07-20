@@ -1,4 +1,5 @@
-export const shell = "mx-auto w-[min(1120px,calc(100%-2.5rem))]";
+export const shell =
+  "mx-auto w-[min(1120px,calc(100%-2.5rem))] sm:w-[min(1120px,calc(100%-4rem))] lg:w-[min(1120px,calc(100%-6rem))]";
 
 const btnBase =
   "inline-flex min-h-[2.85rem] items-center justify-center rounded-sm border border-transparent px-5 py-[0.65rem] text-[0.95rem] font-semibold transition-colors";

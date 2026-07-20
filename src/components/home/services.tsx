@@ -55,7 +55,7 @@ export default function Services({
           </div>
         </Reveal>
 
-        <ul id="capabilities" className="grid gap-8 md:grid-cols-3">
+        <ul id="capabilities" className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {services.capabilities.map((cap, i) => (
             <li key={cap.title}>
               <Reveal delay={Math.min(i, 2) as 0 | 1 | 2}>
