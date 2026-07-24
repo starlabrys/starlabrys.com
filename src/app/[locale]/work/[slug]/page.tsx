@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SiteHeader from "@/components/home/site-header";
 import SiteFooter from "@/components/home/site-footer";
+import SiteAdvisor from "@/components/home/site-advisor";
 import { btnPrimary, eyebrow, sectionHeadTitle, shell } from "@/components/home/ui";
 import { getHomeContent } from "@/lib/home-content";
 import type { Locale } from "@/lib/i18n";
@@ -157,6 +158,7 @@ export default async function WorkProjectPage({
         </section>
       </main>
       <SiteFooter locale={locale} footer={home.footer} />
+      <SiteAdvisor locale={locale} projectSlug={slug} />
     </div>
   );
 }

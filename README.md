@@ -4,12 +4,16 @@ Starlabrys（星钺（大连）科技有限公司）官网。Next.js（App Route
 
 ## 本地开发
 
+前置：Node（见 `.nvmrc`）、[uv](https://docs.astral.sh/uv/)。
+
 ```bash
-npm install
-npm run dev
+task install   # 可选：npm + advisor Python 依赖
+task api       # 后端 :30001（uv 按 advisor/.python-version 使用最新 3.14）
+# 另开终端
+task ui        # 前端 :30000
 ```
 
-访问 <http://localhost:3000/zh> 或 <http://localhost:3000/en>。
+访问 <http://localhost:30000/zh> 或 <http://localhost:30000/en>。顾问 API：<http://127.0.0.1:30001/health>。
 
 ## 构建
 

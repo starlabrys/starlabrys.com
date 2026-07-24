@@ -1,0 +1,296 @@
+{
+  "locale": "en",
+  "generatedAt": "2026-07-24T09:58:40.463Z",
+  "contactEmail": "contact@starlabrys.com",
+  "bootstrap": {
+    "welcome": "Hi — I’m the Starlabrys project advisor. I can help based on public site content, point you to case studies, and guide you to contact the team.",
+    "disclaimer": "Answers are based on public website content and are not an offer or quote.",
+    "title": "Project advisor",
+    "placeholder": "Describe your need or ask about a project…",
+    "sendLabel": "Send",
+    "openLabel": "Ask advisor",
+    "closeLabel": "Close",
+    "mailLabel": "Email us",
+    "quickPrompts": [
+      "What does Starlabrys do?",
+      "Tell me about the route-path firewall policy project",
+      "What is the AI log analysis project?",
+      "Can we plug our services into the microservices framework?",
+      "How can I contact you?"
+    ]
+  },
+  "docs": [
+    {
+      "id": "home:meta",
+      "type": "company",
+      "title": "Starlabrys — A software company centered on project delivery",
+      "summary": "Starlabrys focuses on software project delivery: from requirements to launch, providing custom development and engineering that lands — multi-stack delivery with global engineering partners, serving clients in Dubai and the UAE.",
+      "body": "Starlabrys is a project-led software company.\nWe take on custom development and system delivery, walking clients from requirements to working results.\nA software company centered on project delivery.",
+      "url": "/en",
+      "tags": [
+        "company",
+        "starlabrys",
+        "about",
+        "介绍",
+        "公司"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:hero",
+      "type": "company",
+      "title": "Starlabrys",
+      "summary": "Through projects, we turn ideas into usable software.",
+      "body": "Starlabrys is a project-led software company.\nWe take on custom development and system delivery, walking clients from requirements to working results.",
+      "url": "/en",
+      "tags": [
+        "hero",
+        "delivery",
+        "项目",
+        "交付"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:services",
+      "type": "service",
+      "title": "How we run projects",
+      "summary": "We don't sell a standard product. We initiate, design, build, and deliver against business goals — so every phase of investment maps to an outcome you can accept.",
+      "body": "End-to-end software project delivery. From discovery and solution design through architecture and development, to integration, launch, and handover — we move on a project cadence so stakeholders always know progress and boundaries. After go-live, optional Day 2 support keeps systems steady in production.",
+      "url": "/en#services",
+      "tags": [
+        "services",
+        "delivery",
+        "服务",
+        "交付",
+        "项目"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:capability:0",
+      "type": "service",
+      "title": "Discovery & scoping",
+      "summary": "Map business scenarios and constraints, then turn fuzzy goals into executable scope, milestones, and acceptance criteria.",
+      "body": "Map business scenarios and constraints, then turn fuzzy goals into executable scope, milestones, and acceptance criteria.",
+      "url": "/en#capabilities",
+      "tags": [
+        "capability",
+        "服务",
+        "能力",
+        "discovery",
+        "&",
+        "scoping"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:capability:1",
+      "type": "service",
+      "title": "Custom development",
+      "summary": "Build applications, APIs, and automation to fit the project — technology serves the goal, across stacks such as Python, Java, Go, and Node.js, and infrastructure including Kafka, Redis, RabbitMQ, PostgreSQL, Docker, Kubernetes, and Kong.",
+      "body": "Build applications, APIs, and automation to fit the project — technology serves the goal, across stacks such as Python, Java, Go, and Node.js, and infrastructure including Kafka, Redis, RabbitMQ, PostgreSQL, Docker, Kubernetes, and Kong.",
+      "url": "/en#capabilities",
+      "tags": [
+        "capability",
+        "服务",
+        "能力",
+        "custom",
+        "development"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:capability:2",
+      "type": "service",
+      "title": "Integration & handover",
+      "summary": "Connect to existing systems and workflows, then finish with integration, training, and handover so the result enters day-to-day use. We have ITSM integration experience with platforms such as Maximo and SMAX — automating ticket create, update, and close for a closed operations loop.",
+      "body": "Connect to existing systems and workflows, then finish with integration, training, and handover so the result enters day-to-day use. We have ITSM integration experience with platforms such as Maximo and SMAX — automating ticket create, update, and close for a closed operations loop.",
+      "url": "/en#capabilities",
+      "tags": [
+        "capability",
+        "服务",
+        "能力",
+        "integration",
+        "&",
+        "handover"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:capability:3",
+      "type": "service",
+      "title": "Day 2 support that lasts",
+      "summary": "Go-live is not the finish line. We provide sustainable Day 2 support — ops collaboration, issue response, and iterative evolution — so systems stay reliable in production.",
+      "body": "Go-live is not the finish line. We provide sustainable Day 2 support — ops collaboration, issue response, and iterative evolution — so systems stay reliable in production.",
+      "url": "/en#capabilities",
+      "tags": [
+        "capability",
+        "服务",
+        "能力",
+        "day",
+        "2",
+        "support",
+        "that",
+        "lasts"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:outcome:0",
+      "type": "service",
+      "title": "Clear scope",
+      "summary": "Goals and boundaries are agreed at kickoff, reducing mid-project churn so teams spend energy on what actually matters.",
+      "body": "Goals and boundaries are agreed at kickoff, reducing mid-project churn so teams spend energy on what actually matters.",
+      "url": "/en#outcomes",
+      "tags": [
+        "outcome",
+        "价值",
+        "客户"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:outcome:1",
+      "type": "service",
+      "title": "Visible progress",
+      "summary": "We advance through demoable increments — progress stays transparent and risks surface early, not near launch.",
+      "body": "We advance through demoable increments — progress stays transparent and risks surface early, not near launch.",
+      "url": "/en#outcomes",
+      "tags": [
+        "outcome",
+        "价值",
+        "客户"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:outcome:2",
+      "type": "service",
+      "title": "A handoff that sticks",
+      "summary": "Delivery is more than code: documentation, transfer, and the training your team needs to maintain and evolve it.",
+      "body": "Delivery is more than code: documentation, transfer, and the training your team needs to maintain and evolve it.",
+      "url": "/en#outcomes",
+      "tags": [
+        "outcome",
+        "价值",
+        "客户"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:outcome:3",
+      "type": "service",
+      "title": "Support after go-live",
+      "summary": "Optional Day 2 services cover ops collaboration and responsive support — turning a one-time delivery into a capability that lasts.",
+      "body": "Optional Day 2 services cover ops collaboration and responsive support — turning a one-time delivery into a capability that lasts.",
+      "url": "/en#outcomes",
+      "tags": [
+        "outcome",
+        "价值",
+        "客户"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:scale",
+      "type": "fact",
+      "title": "Multi-stack delivery. Global collaboration.",
+      "summary": "We choose languages, middleware, and cloud-native components for the project, and coordinate across regions so delivery lands where the client operates.",
+      "body": "Multi-stack: Python, Java, Go, and Node.js — selected for the problem, not by habit.\nMiddleware & cloud-native: Kafka, Redis, RabbitMQ, PostgreSQL, Docker, Kubernetes, Kong, and more — landed for the architecture.\nITSM integration: Integrate with client ITSM such as Maximo and SMAX — auto create, update, and close tickets for a closed ops loop.\nGlobal teams: Partnering with engineering teams in Portugal, India, and Poland across time zones.\nRegional delivery: Serving clients in Dubai and across the UAE, aligned to local context and acceptance.",
+      "url": "/en",
+      "tags": [
+        "stack",
+        "global",
+        "kafka",
+        "redis",
+        "kubernetes",
+        "kong",
+        "docker",
+        "python",
+        "java",
+        "技术栈",
+        "全球",
+        "迪拜",
+        "uae"
+      ],
+      "email": null
+    },
+    {
+      "id": "home:contact",
+      "type": "cta",
+      "title": "Let's talk about your next project",
+      "summary": "Whether it's a new system, process automation, or bringing AI into production — it can start with a short conversation.",
+      "body": "Email: contact@starlabrys.com",
+      "url": "/en#contact",
+      "tags": [
+        "contact",
+        "email",
+        "联系",
+        "邮件",
+        "咨询"
+      ],
+      "email": "contact@starlabrys.com"
+    },
+    {
+      "id": "work:device-config-rollout",
+      "type": "project",
+      "title": "Route-path visualization & automated firewall policy",
+      "summary": "From source/destination IPs to path computation, path-traffic analysis, and firewall policy create/push — making “where should this policy land” computable, verifiable, and operable.",
+      "body": "Enter source and destination IPs, compute the traffic path from routing data, analyze traffic along that path, then create and push firewall policies automatically.\n\nContext & challenge: Opening or tightening connectivity between two endpoints usually means manually tracing routes, guessing intermediate devices, then editing policies on multiple firewalls. Unclear paths, opaque traffic, and scattered rules lead to misses and misconfigs — and little time to validate inside a change window.\nWhat we did: After the user enters source and destination IPs, the system computes an end-to-end traffic path from routing data, identifies key hops and traffic characteristics along that path, then generates and deploys firewall policies on the relevant devices. Path reports and dry-runs run before live push; steps stay auditable and replayable.\nOutcome: Policy changes moved from hand-chasing routes to path-driven policy orchestration: paths are visible, traffic along the path is analyzable, and firewall rules can land automatically — with clearer risk control and a steadier delivery cadence.\n\nChange requests · Policy intake: One place to submit and track policy changes driven by source/destination IPs. Search by request ID and follow statuses from submitted through review, approval, rejection, and deployed — so business and network/security teams share one timeline.\nPath report · Computation & dry-run: Hop-by-hop path and interfaces from source to destination, plus dry-run previews of intended firewall policies and conflicts. Intent is clear before live push, cutting trial-and-error in the change window.\nDashboard · Delivery posture: Period totals for requests, success, in progress, and rejected — with outcome distribution to spot throughput and bottlenecks. Leaders see path analysis and policy automation health without digging through tickets.\nDevice inventory · Managed assets: Inventory of routers, switches, firewalls, and other managed devices — IP, type, access protocol, series, and health. Path computation and policy push run against a verifiable device baseline.\nRouting · Forwarding context: Aggregated routes across devices, searchable by prefix, receiving device, and type — with next hop, VRF/context, egress interface, and zone. Path computation and firewall policy orchestration rest on real forwarding data.",
+      "url": "/en/work/device-config-rollout",
+      "tags": [
+        "project",
+        "案例",
+        "work",
+        "device-config-rollout",
+        "network automation",
+        "route-path",
+        "visualization",
+        "&",
+        "automated",
+        "firewall",
+        "policy"
+      ],
+      "email": null
+    },
+    {
+      "id": "work:ai-log-analysis",
+      "type": "project",
+      "title": "AI-powered log analysis",
+      "summary": "In high-volume log environments, turn manual searching into practical anomaly detection and signal triage — from report overview and root-cause analysis to a reusable rules library.",
+      "body": "Built log analysis capabilities that help teams spot anomalies and critical signals faster in high-volume data.\n\nContext & challenge: Production logs are noisy and high-volume. Manual search is slow, critical anomalies get buried, troubleshooting costs climb, and reusable analysis paths rarely form.\nWhat we did: We modeled real alert and triage scenarios: clean and structure logs, extract key fields, combine rules with model-assisted detection for anomalies and critical signals, and return explainable results to ops and business teams.\nOutcome: Teams find anomalies and critical events faster with less blind searching. The capability ships within clear project boundaries and can embed into existing monitoring, ticketing, or on-call flows for ongoing use.\n\nMain view · Reports: The dashboard aggregates Open, Ignored, and Fixed reports, with filters by severity and service. Each card shows which engine analyzed it (e.g. gpt-4o, rule engine), so on-call teams can spot Critical / High issues and jump into triage.\nDetail report · Root cause: A single error report connects metadata, stack traces, surrounding log context, and AI root-cause notes. For NullPointer cases, it highlights likely triggers such as uninitialized context — moving from “found an error” to “understood why.”\nRules library: The Rules view manages detection patterns: manual rules and AI-learned suggestions, filterable by category, severity, and source. Operators can Promote or delete AI suggestions so useful patterns become lasting detection assets.",
+      "url": "/en/work/ai-log-analysis",
+      "tags": [
+        "project",
+        "案例",
+        "work",
+        "ai-log-analysis",
+        "ai engineering",
+        "ai-powered",
+        "log",
+        "analysis"
+      ],
+      "email": null
+    },
+    {
+      "id": "work:python-microservices",
+      "type": "project",
+      "title": "Python microservices framework",
+      "summary": "Pull proxy, auth, navigation, and notifications out of every service. Teams plug business services into the shell; the framework owns the cross-cutting platform work.",
+      "body": "A Kong-based microservices shell: proxy and access control, multi-project import, configurable users / menus / roles — plug in business services without rebuilding the platform each time.\n\nThe problem: When every microservice reinvents login, menus, and gateway wiring, platform work gets rebuilt and conventions drift. What’s needed is a business-agnostic shell: import services, configure access, and unify the entry point.\nHow the framework works: Kong handles service discovery and proxying. Multiple projects can be imported. Users, menus, and roles are configured on the platform side, separate from domain logic. Business services stay focused; the shell covers proxy, auth, navigation, and mail.\nOutcome: New services attach to a shared entry faster. Access and menus converge by role. Ops views can embed existing data dashboards. The platform versions over time while business modules come and go without rebuilding the shell.\n\nData · Embedded Grafana: The data page embeds Grafana dashboards — task load, regional summaries, plan vs achieved — inside the shared shell. Teams read metrics without a second portal; navigation and permissions stay with the framework.\nMenu config · Navigation: Compose menu trees by company and role, picking modules from a resource pool. Different projects and roles get different entries, with save and sync — instead of hard-coding menus in every business repo.\nRole config · Access baseline: Maintain roles in one place as the baseline for permissions and menu binding. Imported services reuse the same role model instead of inventing another account system per microservice.",
+      "url": "/en/work/python-microservices",
+      "tags": [
+        "project",
+        "案例",
+        "work",
+        "python-microservices",
+        "platform engineering",
+        "python",
+        "microservices",
+        "framework"
+      ],
+      "email": null
+    }
+  ]
+}

@@ -2,11 +2,25 @@ version: "3"
 
 tasks:
   install:
-    desc: 安装依赖包 (npm ci)
+    desc: 安装依赖 (npm ci + uv sync advisor)
     cmds:
       - fnm exec --using=.nvmrc -- npm ci
+      - |
+        command -v uv >/dev/null || { echo "需要 uv: https://docs.astral.sh/uv/"; exit 1; }
+      - uv python install --directory advisor
+      - uv sync --directory advisor
 
-  dev:
-    desc: 本地启动开发服务器 (next dev)
+  api:
+    desc: 启动 Advisor API (http://127.0.0.1:30001)，Python 由 uv 管理
     cmds:
-      - fnm exec --using=.nvmrc -- npm run dev
+      - |
+        command -v uv >/dev/null || { echo "需要 uv: https://docs.astral.sh/uv/"; exit 1; }
+      - uv python install --directory advisor
+      - uv sync --directory advisor
+      - fnm exec --using=.nvmrc -- npm run advisor:kb
+      - uv run --directory advisor uvicorn app.main:app --reload --host 0.0.0.0 --port 30001
+
+  ui:
+    desc: 启动前端 Next.js (http://localhost:30000)，默认对接本地 API
+    cmds:
+      - NEXT_PUBLIC_ADVISOR_API=http://127.0.0.1:30001 fnm exec --using=.nvmrc -- npm run dev
